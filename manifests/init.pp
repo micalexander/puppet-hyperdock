@@ -5,7 +5,7 @@
 #  include hyperdock
 class hyperdock {
   package { 'HyperDock':
-    provider => 'appdmg',
+    provider => 'appdmg_eula',
     source   => 'http://hyperdock.bahoom.com/HyperDock.dmg',
   }
 }
