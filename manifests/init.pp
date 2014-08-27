@@ -1,4 +1,4 @@
-# Public: Install HyperDock to /Applications
+# Publid: Install HyperDock to /Applications
 #
 # Examples
 #
@@ -6,6 +6,6 @@
 class hyperdock {
   package { 'HyperDock':
     provider => 'appdmg_eula',
-    source   => 'http://hyperdock.bahoom.com/HyperDock.dmg',
+    source   => 'http://hyperdock.bahoom.com/download/HyperDock.dmg',
   }
 }
