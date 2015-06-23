@@ -6,6 +6,6 @@
 class hyperdock {
   package { 'HyperDock':
     provider => 'appdmg_eula',
-    source   => 'http://hyperdock.bahoom.com/download/HyperDock.dmg',
+    source   => 'https://bahoom.com/hyperdock/download',
   }
 }
